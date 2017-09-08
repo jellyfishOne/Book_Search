@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:paddingBottom="2dp">
+
+    <ImageView
+        android:id="@+id/thumbnail_view"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="@color/tope" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:background="@color/tope"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:textSize="12sp"
+            tools:text="Harry potter and the prisoner of Azcaban" />
+
+        <TextView
+            android:id="@+id/author_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:textSize="12sp"
+            tools:text="By: J.k. Rowling" />
+
+        <TextView
+            android:id="@+id/publish_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:textSize="12sp"
+            tools:text="Published: 2014" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:background="@color/tope"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rating_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/rating_cirlce"
+            android:gravity="center"
+            android:textColor="#000"
+            tools:text="4.5/5" />
+    </LinearLayout>
+
+</LinearLayout>
+

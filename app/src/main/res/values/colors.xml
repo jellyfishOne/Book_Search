@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#800000</color>
+    <color name="colorPrimaryDark">#E65100</color>
+    <color name="colorAccent">#FF6D00</color>
+    <color name="tope">#D7CCC8</color>
+
+    <!-- Color for a book with no rating -->
+    <color name="no_rating">#4A7BA7</color>
+    <!-- Color for a book with rating  0 and 1 -->
+    <color name="rating1">#4A7BA7</color>
+
+    <!-- Color for a book with rating  2  -->
+    <color name="rating2">#04B4B3</color>
+
+    <!-- Color for a book with rating  3 -->
+    <color name="rating3">#F5A623</color>
+
+    <!-- Color for a book with rating  4 and 5-->
+    <color name="rating4">#FF7D50</color>
+
+
+</resources>

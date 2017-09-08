@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book Search</string>
+    <string name="search_suggestions">Type the title of the book you would like to search for.</string>
+    <string name="search">Search</string>
+    <string name="search_results_title">Search Results</string>"
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_books">No books found</string>
+</resources>
